@@ -31,8 +31,6 @@ const distPath = path.resolve(rootPath, "dist");
 for (const context of [ 'client', 'server' ]) {
     const entry = path.resolve(srcPath, context, "index.ts");
     const dist = path.resolve(distPath, `${context}.js`)
-    console.warn(entry);
-    console.warn(dist)
     esbuild.build({
         bundle: true,
         minify: production,

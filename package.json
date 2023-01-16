@@ -1,0 +1,17 @@
+{
+    "name": "ts-fivem-template",
+    "version": "1.0.0",
+    "author": "ItsNemesi",
+    "main": "index.js",
+    "scripts": {
+        "build": "node .config/build.js --mode=production",
+        "watch": "node .config/build.js"
+    },
+    "devDependencies": {
+        "@citizenfx/client": "^2.0.6210-1",
+        "@citizenfx/server": "^2.0.6210-1",
+        "@types/node": "^18.11.18",
+        "esbuild": "^0.15.15",
+        "typescript": "^4.9.4"
+    }
+}
